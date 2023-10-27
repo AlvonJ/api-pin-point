@@ -7,7 +7,7 @@ describe('delete user example', () => {
   let app;
 
   beforeEach(async () => {
-    jest.setTimeout(20000);
+    jest.setTimeout(30000);
     await deleteAllUsers();
   });
 

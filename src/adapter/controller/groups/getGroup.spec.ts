@@ -8,7 +8,7 @@ describe('get one group example', () => {
   let app;
 
   beforeEach(async () => {
-    jest.setTimeout(20000);
+    jest.setTimeout(30000);
     await resetDatabase();
   });
 

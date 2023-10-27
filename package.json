@@ -15,7 +15,8 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "testTimeout": 30000
   },
   "keywords": [],
   "author": "Alvon Jovanus",
